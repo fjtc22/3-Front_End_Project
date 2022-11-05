@@ -1,0 +1,105 @@
+@import "colors";
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Miller-Display';
+    src: url('Miller-Display_30501.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+  font-family: 'Miller-Display';
+  font-weight: normal;
+  font-size: 4rem;
+  margin-bottom: 35px;
+}
+
+h2 {
+  font-family: 'Miller-Display';
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 5px;
+  line-height: 20px;
+}
+
+h4 {
+  font-family: 'Miller-Display';
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+@mixin logo-text {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: $white;
+  letter-spacing: 3px;
+}
+
+@mixin nav-text {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+
+@mixin body-text {
+  font-family: 'Merriweather';
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 35px;
+}
+
+@mixin footer-text {
+  font-family: 'Miller-Display';
+  font-weight: normal;
+  font-size: 1rem;
+  color: $col;
+}
+
+@mixin post-subtitle {
+  font-family: 'Miller-Display';
+  font-weight: normal;
+  font-size: 2.2rem;
+  color: $black;
+}
+
+@mixin CTA-text {
+  font-family: 'Miller-Display';
+  font-weight: normal;
+  font-size: 1.2rem;
+}
